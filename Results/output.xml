@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.3 (Python 3.8.2 on win32)" generated="20220422 13:12:35.395" rpa="false" schemaversion="2">
+<suite id="s1" name="Extract Pages From Pdf" source="D:\F Drive\RobotFramework_NewVersion\PDF_Test\Extract_Pages_From_Pdf.robot">
+<test id="s1-t1" name="Example Keyword">
+<kw name="Extract Pages From Pdf" library="RPA.PDF">
+<var>${pages}</var>
+<arg>source_path=testdata/sample06.pdf</arg>
+<arg>output_path=testdata/Output_sample06.pdf</arg>
+<arg>pages=1</arg>
+<doc>Extract pages from source PDF and save to a new PDF document.</doc>
+<msg timestamp="20220422 13:12:35.745" level="INFO">${pages} = None</msg>
+<status status="PASS" starttime="20220422 13:12:35.656" endtime="20220422 13:12:35.746"/>
+</kw>
+<status status="PASS" starttime="20220422 13:12:35.656" endtime="20220422 13:12:35.746"/>
+</test>
+<status status="PASS" starttime="20220422 13:12:35.398" endtime="20220422 13:12:35.747"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Extract Pages From Pdf">Extract Pages From Pdf</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
